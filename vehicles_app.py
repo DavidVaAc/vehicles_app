@@ -129,4 +129,4 @@ if disp_button:
 
 # Si no se ha seleccionado ninguna opción, mostrar un mensaje informativo
 elif not df_button and not hist_button and not disp_button:
-    st.info("Abra la barra lateral izquierda empezar a desplegar datos.")
+    st.info("Abra la barra lateral izquierda para empezar a desplegar datos.")
