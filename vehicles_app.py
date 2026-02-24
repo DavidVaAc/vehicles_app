@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import plotly.graph_objects as go
 
 # Leer los datos del archivo CSV
 car_data = pd.read_csv('vehicles_us.csv')
