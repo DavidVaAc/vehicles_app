@@ -99,7 +99,7 @@ if dist_button:
                        x='price',
                        title='Distribución de precios por Fabricante'.title(),
                        labels={'price': 'Precio'},                       
-                       color='type',
+                       color='manufacturer',
                        barmode='group')
 
     # Opcional: Puedes añadir un título al gráfico si lo deseas
