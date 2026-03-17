@@ -32,7 +32,7 @@ with st.sidebar:
     # Crear una casilla de verificación para la correlación entre precio y condición
     disp_button = st.checkbox('Matriz de dispersión')
 
-if df_button or hist_button or disp_button:
+if df_button or hist_button or disp_button or dist_button:
     st.success("¡Disfruta la Aplicación!")
 
 # Lógica a ejecutar cuando se hace clic en la casilla de verificación del DataFrame
@@ -128,5 +128,5 @@ if disp_button:
     st.plotly_chart(fig, use_container_width=True)
 
 # Si no se ha seleccionado ninguna opción, mostrar un mensaje informativo
-elif not df_button and not hist_button and not disp_button:
+elif not df_button and not hist_button and not disp_button and not dist_button:
     st.info("Abra la barra lateral izquierda para empezar a desplegar datos.")
